@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Poppins";
+@layer base {
+  h2 {
+    @apply text-2xl font-light tracking-wide leading-relaxed;
+  }
 }
 
-.text-xxs {
+.tooltip {
   font-size: 9px;
 }

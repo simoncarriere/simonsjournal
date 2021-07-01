@@ -63,7 +63,7 @@ const Navbar = () => {
                                 <Link key={link.name} href={link.href}>
                                     <a className=" transition duration-400 inline-block text-base font-medium py-2 px-5 tracking-wide hover:opacity-60">
                                         {link.name}
-                                        <span className="text-xxs uppercase text-blue-600 absolute top-2 ml-0 font-semibold	">{link.tooltip}</span>
+                                        <span className="tooltip uppercase text-blue-600 absolute top-2 ml-0 font-semibold	">{link.tooltip}</span>
                                     </a>
                                 </Link>
                             ))}

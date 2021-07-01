@@ -9,6 +9,9 @@ module.exports = {
           100: "#F6F6F6"
         } 
       },
+      fontFamily: {
+        poppins: "Poppins"
+      }
     },
   },
   variants: {

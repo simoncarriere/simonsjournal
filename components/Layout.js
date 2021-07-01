@@ -4,12 +4,12 @@ import Head from 'next/head'
 
 const Layout = ({children}) => {
     return ( 
-        <div className="bg-background-100">
+        <div className="bg-background-100 font-poppins">
             <Head>
                 <title>Simon's Journal</title>
             </Head>
-            <Navbar />
-            <main className="relative">
+            <Navbar className="mb-8"/>
+            <main className="relative mx-auto">
                 { children }
             </main>
             <Footer />
